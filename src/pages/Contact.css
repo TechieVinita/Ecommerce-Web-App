@@ -1,0 +1,59 @@
+/* Contact.css */
+
+.contact-us-container {
+  padding: 40px; /* Adjust padding as needed */
+}
+
+.contact-us-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px;
+  background-color: #ffffff; /* White background for the content */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the card */
+}
+
+.contact-us-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #087e8b; /* Main color for headings */
+  margin-bottom: 20px;
+}
+
+.contact-us-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Color for sub-headings */
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.contact-us-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666; /* Color for paragraphs */
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #087e8b; /* Color for sub-headings */
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #333; /* Color for paragraphs */
+  margin-bottom: 10px;
+}
+
+.contact-info strong {
+  font-weight: bold;
+}

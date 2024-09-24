@@ -1,0 +1,55 @@
+/* AboutUs.css */
+
+.about-us-container {
+  padding: 40px; /* Adjust padding as needed */
+}
+
+.about-us-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px;
+  background-color: #ffffff; /* White background for the content */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the card */
+}
+
+.about-us-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #087e8b; /* Main color for headings */
+  margin-bottom: 20px;
+}
+
+.about-us-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Color for sub-headings */
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.about-us-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666; /* Color for paragraphs */
+  margin-bottom: 10px;
+}
+
+.about-us-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.about-us-content ul li {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #666; /* Color for list items */
+}
+
+.about-us-content strong {
+  font-weight: bold;
+  color: #087e8b; /* Color for strong/emphasized text */
+}

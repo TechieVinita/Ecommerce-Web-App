@@ -1,0 +1,95 @@
+/* Home.css */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center; /* Center align the search bar */
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.filter-options {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-options button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #087E8B;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Display four products in a row */
+  gap: 20px;
+  justify-items: center; /* Center align items in the grid */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Ensure each card takes full width of its grid cell */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: contain; /* Ensures the image retains its aspect ratio */
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: center; /* Centers the text horizontally */
+}
+
+.product-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center; /* Centers the text horizontally */
+}
+
+.buy-now-btn {
+  background-color: #087E8B;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-btn:hover {
+  background-color: #065a60; /* Darker shade on hover */
+}

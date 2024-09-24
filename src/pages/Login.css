@@ -1,0 +1,90 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Adjusted padding to accommodate the eye icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  position: relative; /* Relative positioning for the input */
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+  color: #ccc; /* Light grey eye icon */
+}
+
+.toggle-password:hover {
+  color: #0b3954; /* Darker color on hover */
+}
+
+.btn-login {
+  background-color: #087E8B;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #5ca6af;
+}
+
+.btn-login:active {
+  background-color: #5ca6af;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
